@@ -57,7 +57,7 @@ A aplicação converte os filtros selecionados nos parâmetros corretos da API d
 ```
 jobfinder/
 │
-├── jobfinder.html          # Arquivo principal da aplicação
+├── jobfinder.html      # Arquivo principal da aplicação
 ├── README.md           # Documentação do projeto
 ```
 
