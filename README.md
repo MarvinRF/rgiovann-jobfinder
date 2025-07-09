@@ -1,95 +1,51 @@
-# Job Finder
+# Job Finder - Versão Remixada
 
-Um gerador de URLs otimizadas para busca de vagas no LinkedIn, desenvolvido para facilitar a procura por oportunidades de trabalho com filtros específicos.
+Gerador de URLs avançadas para busca de vagas no LinkedIn — agora com uma interface **retrô, responsiva e acessível**, sem perder a simplicidade.
 
-## Sobre o Projeto
 
-O Job Finder é uma ferramenta web simples e eficiente que permite aos usuários configurar filtros de busca personalizados e gerar automaticamente URLs do LinkedIn Jobs com os parâmetros desejados. A aplicação foi desenvolvida com foco na experiência do usuário e na precisão dos resultados de busca.
+## 📌 Sobre
 
-## Funcionalidades
+**Job Finder** é uma aplicação web que cria links otimizados para o LinkedIn Jobs com base em filtros de cargo, senioridade, formato de trabalho e data de publicação. Esta versão foi **remixada e redesenhada do zero com foco em acessibilidade, responsividade e uma identidade visual retrô**, inspirada em terminais dos anos 80.
 
-* **Busca por Cargo**: Digite qualquer posição ou função desejada
-* **Filtro de Senioridade**: Selecione entre Estágio, Júnior, Pleno ou Sênior
-* **Modalidade de Trabalho**: Escolha entre Presencial, Remoto ou Híbrido
-* **Filtro Temporal**: Encontre vagas publicadas na última hora, 24 horas ou semana
-* **Geração Automática de URL**: URL otimizada gerada automaticamente para o LinkedIn
-* **Interface Responsiva**: Design adaptável para diferentes dispositivos
+---
 
-## Tecnologias Utilizadas
+## ✅ Funcionalidades
 
-* HTML5
-* CSS3
-* JavaScript (Vanilla)
-* Bootstrap 5.3.0
-* Font Awesome 6.4.0
+- 🔍 **Busca por Cargo** com filtros excludentes (`NOT`) automáticos
+- 🧠 **Senioridade**: Estágio, Júnior, Pleno ou Sênior
+- 🏢 **Modalidade**: Presencial, Remoto ou Híbrido
+- 🕒 **Data do Anúncio**: Última hora, 24 horas ou última semana
+- ⚡ **Geração Automática de URL** para LinkedIn Jobs
+- 🖥️ **Tema Retrô com Alternância Claro/Escuro**
+- ♿ **Totalmente Acessível com ARIA e navegação via teclado**
+- 📱 **Interface responsiva para dispositivos móveis**
 
-## Como Usar
+---
 
-1. Abra o arquivo `jobfinder.html` em seu navegador
+## 🖼️ Interface
 
-2. Preencha os campos de acordo com sua busca:
+A nova UI utiliza:
 
-   * **Cargo**: Digite a posição desejada (ex: "Desenvolvedor Frontend")
-   * **Senioridade**: Selecione o nível de experiência
-   * **Modalidade**: Escolha o formato de trabalho
-   * **Data do anúncio**: Filtre por recência da publicação
+- **Estilo retrô pixelado** com a fonte `Press Start 2P`
+- Cores temáticas controladas por `CSS Variables`
+- Animações customizadas (`flicker`, `glow`, `blink`, `fadeOut`)
+- Suporte completo para **modo escuro e claro**, acessível com `Enter` ou `Espaço`
 
-3. Clique em "Buscar Vaga"
+---
 
-4. Uma nova aba será aberta com os resultados filtrados no LinkedIn
+## 🔧 Tecnologias
 
-## Recursos Avançados
+- HTML5 Semântico
+- CSS3 com variáveis customizadas
+- JavaScript Vanilla (sem frameworks)
+- Bootstrap 5.3
+- Font Awesome 6.4
+- Google Fonts
 
-### Filtros de Exclusão
+---
 
-O sistema automaticamente adiciona filtros `NOT` para excluir níveis de senioridade não desejados, aumentando a precisão dos resultados.
+## 🚀 Como Usar
 
-### Mapeamento de Parâmetros
-
-A aplicação converte os filtros selecionados nos parâmetros corretos da API do LinkedIn:
-
-* Modalidades são convertidas para códigos específicos (Remoto: 2, Presencial: 1, Híbrido: 3)
-* Filtros temporais são mapeados para valores de timestamp
-* Termos de senioridade são padronizados
-
-## Estrutura do Projeto
-
-```
-jobfinder/
-│
-├── jobfinder.html      # Arquivo principal da aplicação
-├── README.md           # Documentação do projeto
-```
-
-## Instalação
-
-Não há necessidade de instalação. Simplesmente:
-
-1. Clone o repositório:
-
-```bash
-git clone https://github.com/rgiovann/jobfinder.git
-```
-
-2. Abra o arquivo `index.html` em qualquer navegador moderno
-
-## Compatibilidade
-
-* Chrome 60+
-* Firefox 55+
-* Safari 12+
-* Edge 79+
-
-## Aviso Importante
-
-O LinkedIn pode ignorar parcialmente filtros com `NOT` no campo de busca. Recomenda-se revisar os resultados manualmente para garantir a precisão das vagas encontradas.
-
-## Autor
-
-**Giovanni L. Rozza**
-
-* GitHub: [@rgiovann](https://github.com/rgiovann)
-
-***
-
-Desenvolvido com dedicação para facilitar a busca por oportunidades profissionais.
+1. Clone o projeto:
+   ```bash
+   git clone https://github.com/seu-usuario/jobfinder.git
